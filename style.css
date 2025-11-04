@@ -26,44 +26,6 @@ body {
   transition: 0.3s;
 }
 
-/* NAVBAR RESPONSIVE FIX */
-.navbar {
-  padding-top: 0.3rem !important;
-  padding-bottom: 0.3rem !important;
-}
-
-.navbar-brand {
-  font-size: 1rem !important; /* kecilkan tulisan brand */
-}
-
-.nav-link {
-  font-size: 0.9rem !important; /* kecilkan teks menu */
-  padding: 0.4rem 0.8rem !important; /* kurangi padding */
-}
-
-/* Saat layar kecil (HP) */
-@media (max-width: 576px) {
-  .navbar {
-    padding-top: 0.2rem !important;
-    padding-bottom: 0.2rem !important;
-  }
-
-  .navbar-toggler {
-    transform: scale(0.9); /* kecilkan tombol hamburger */
-  }
-
-  .navbar-collapse {
-    background-color: #000; /* biar dropdown kelihatan rapi */
-    padding: 0.5rem;
-  }
-
-  .nav-link {
-    display: block;
-    text-align: center;
-    margin: 0.3rem 0;
-  }
-}
-
 /* Tambahan efek sedikit saat discroll */
 .navbar.scrolled {
   background: rgba(0, 0, 0, 0.6);
